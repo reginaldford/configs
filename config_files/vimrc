@@ -39,7 +39,7 @@ set statusline+=col\:%{col('.')}    " Column number
 set statusline+=/%{col('$')}        " Total number of columns
 set statusline+=\ \                 " Separator
 set statusline+=dec\:\%b            " Decimal value of the character
-set statusline+=\ hex\:%03.3B       " Hex value of the character
+set statusline+=\ hex\:%B       " Hex value of the character
 " Display the status line
 set laststatus=2
 

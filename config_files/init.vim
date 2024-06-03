@@ -1,4 +1,4 @@
-" It's already yours <3
+" neovim version
 set nocompatible
 
 colorscheme desert
@@ -14,7 +14,7 @@ nnoremap <F5> :make<CR>
 " Quickfix window nav
 nnoremap <F6> :clist<CR>
 nnoremap <F7> :cnext<CR>
-nnoremap <F8> :cprec<CR>
+nnoremap <F8> :cprev<CR>
 nnoremap <F9> :cclose<CR>
 
 " Useful settings
@@ -39,7 +39,7 @@ set statusline+=col\:%{col('.')}    " Column number
 set statusline+=/%{col('$')}        " Total number of columns
 set statusline+=\ \                 " Separator
 set statusline+=dec\:\%b            " Decimal value of the character
-set statusline+=\ hex\:%B       " Hex value of the character
+set statusline+=\ hex\:%B           " Hex value of the character
 " Display the status line
 set laststatus=2
 
